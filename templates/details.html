@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Candidate Selection Prediction 
+        </title>
+        <!-- <link  href="/static/style.css" rel="stylesheet"> -->
+        </head>
+    <body>
+
+        <center><h1>Candidate Selection Prediction</h1></center>
+        <center><div id="gg">
+        <form action="/predict"  method="post">
+            <label class="aa" for="Pregnancies">Pregnancies:</label><br>
+            <input type="number" id="bb" name="Pregnancies" placeholder="0-9" required><br></br>
+            <label class="aa" for ="Glucose">Glucose:</label><br>
+            <input type="number" step="any" id="bb" name="Glucose" required><br><br>
+            <label class="aa" for ="BloodPressure">BloodPressure:</label><br>
+            <input type="number" step="any" id="bb" name="BloodPressure" required><br><br>
+            <label class="aa" for ="SkinThickness">SkinThickness:</label><br>
+            <input type="number" step="any" id="bb" name="SkinThickness" required><br><br>
+            <label class="aa" for ="Insulin">Insulin:</label><br>
+            <input type="number" step="any" id="bb" name="Insulin" required><br><br>
+            <label class="aa" for ="BMI">BMI:</label><br>
+            <input type="number" step="any" id="bb" name="BMI" required><br><br>
+            <label class="aa" for ="DiabetesPedigreeFunction">DiabetesPedigreeFunction:</label><br>
+            <input type="number" step="any" id="bb" name="DiabetesPedigreeFunction" required><br><br>
+            <label class="aa" for ="Age">Age:</label><br>
+            <input type="number" step="any" id="bb" name="Age" required><br><br>
+            <input class="cc" type="submit" value="Submit">
+        </form>
+        </div></center>
+
+    </body>
+</html>
